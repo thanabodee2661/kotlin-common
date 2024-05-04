@@ -71,4 +71,11 @@
 		</plugins>
 	</build>
 
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub OWNER Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/thanabodee2661/kotlin-common</url>
+		</repository>
+	</distributionManagement>
 </project>
