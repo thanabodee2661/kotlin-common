@@ -1,4 +1,4 @@
-package com.thanabodee2661.kotlincommon.enumeration;
+package com.thanabodee2661.springcommon.enumeration;
 
 import lombok.Getter;
 import org.springframework.http.HttpStatus;

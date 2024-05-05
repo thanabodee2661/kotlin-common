@@ -1,9 +1,9 @@
-package com.thanabodee2661.kotlincommon.exceptionhandler;
+package com.thanabodee2661.springcommon.exceptionhandler;
 
-import com.thanabodee2661.kotlincommon.enumeration.ResponseStatusEnum;
-import com.thanabodee2661.kotlincommon.exception.InvalidException;
-import com.thanabodee2661.kotlincommon.exception.NotFoundException;
-import com.thanabodee2661.kotlincommon.model.ResponseModel;
+import com.thanabodee2661.springcommon.enumeration.ResponseStatusEnum;
+import com.thanabodee2661.springcommon.exception.InvalidException;
+import com.thanabodee2661.springcommon.exception.NotFoundException;
+import com.thanabodee2661.springcommon.model.ResponseModel;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

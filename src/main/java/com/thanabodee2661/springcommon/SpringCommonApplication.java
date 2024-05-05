@@ -1,11 +1,11 @@
-package com.thanabodee2661.kotlincommon;
+package com.thanabodee2661.springcommon;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class KotlinCommonApplication {
+public class SpringCommonApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(KotlinCommonApplication.class, args);
+		SpringApplication.run(SpringCommonApplication.class, args);
 	}
 }

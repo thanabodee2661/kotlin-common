@@ -1,11 +1,10 @@
-package com.thanabodee2661.kotlincommon.model;
+package com.thanabodee2661.springcommon.model;
 
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.PropertyNamingStrategies;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
-import com.thanabodee2661.kotlincommon.enumeration.ResponseStatusEnum;
+import com.thanabodee2661.springcommon.enumeration.ResponseStatusEnum;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;

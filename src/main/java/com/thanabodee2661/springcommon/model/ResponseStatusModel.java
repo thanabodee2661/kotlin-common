@@ -1,6 +1,6 @@
-package com.thanabodee2661.kotlincommon.model;
+package com.thanabodee2661.springcommon.model;
 
-import com.thanabodee2661.kotlincommon.enumeration.ResponseStatusEnum;
+import com.thanabodee2661.springcommon.enumeration.ResponseStatusEnum;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;

@@ -1,24 +1,24 @@
-package com.thanabodee2661.kotlincommon.exception;
+package com.thanabodee2661.springcommon.exception;
 
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class InvalidException extends RuntimeException {
+public class NotFoundException extends RuntimeException {
     private String message;
     private Throwable ex;
-    public InvalidException (String message, Throwable ex) {
+    public NotFoundException (String message, Throwable ex) {
         this.message = message;
         this.ex = ex;
     }
 
-    public InvalidException (String message) {
+    public NotFoundException (String message) {
         this.message = message;
         this.ex = null;
     }
 
-    public InvalidException (Throwable ex) {
+    public NotFoundException (Throwable ex) {
         this.message = null;
         this.ex = ex;
     }
