@@ -18,4 +18,10 @@ public class ResponseStatusModel {
         this.message = statusEnum.getMessage();
         this.description = statusEnum.getDescription();
     }
+
+    public ResponseStatusModel(ResponseStatusEnum statusEnum, String customDescription) {
+        this.code = statusEnum.getCode();
+        this.message = statusEnum.getMessage();
+        this.description = customDescription;
+    }
 }

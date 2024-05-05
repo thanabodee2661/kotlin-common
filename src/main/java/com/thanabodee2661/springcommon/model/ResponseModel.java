@@ -21,4 +21,8 @@ public class ResponseModel<T> {
     public ResponseModel(ResponseStatusEnum statusEnum) {
         this.status = new ResponseStatusModel(statusEnum);
     }
+
+    public ResponseModel(ResponseStatusEnum statusEnum, String customDescription) {
+        this.status = new ResponseStatusModel(statusEnum, customDescription);
+    }
 }
